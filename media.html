@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+</head>
+<body>
+  <h1>About Me</h1>
+  <p>Hello! My name is David Aruna. I am passionate about technology and constantly improving myself as a developer and designer. Below, you'll find a mix of media elements that tell a bit about who I am and what I enjoy doing!</p>
+
+  <h2>Responsive Picture Element</h2>
+  <section id="images">
+    <!-- Image for mobile -->
+    <img src="C:\Users\HP\Pictures\IMG_2796.JPG" alt="Profile Image" media="(max-width: 600px)">
+    <!-- Image for tablet -->
+    <source srcset="c:/Users/HP/Pictures/IMG_2796.JPG" media="(max-width: 1024px)">
+    <!-- Image for laptops and larger screens -->
+    <source srcset="c:/Users/HP/Pictures/IMG_2796.JPG" media="(min-width: 1025px)">
+    <!-- Fallback image -->
+    <img src="c:/Users/HP/Pictures/IMG_2796.JPG" alt="A photo representing me or my work">
+  </section>
+  <p>This image changes based on the device you're viewing it on. Try resizing the screen to see it in action!</p>
+
+  <h2>Video Element</h2>
+  <video controls width="600">
+    <source src="about-me.mp4" type="video/mp4">
+    <source src="about-me.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+  <p>A quick introduction to who I am and what I do.</p>
+
+  <h2>Audio Element</h2>
+  <audio controls>
+    <source src="background-music.mp3" type="audio/mpeg">
+    <source src="background-music.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+  <p>A piece of music that keeps me motivated while working.</p>
+
+  <h2>Embedded Map</h2>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345090934!2d144.95373531566556!3d-37.81627917975179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sau!4v1612495200012!5m2!1sen!2sau" 
+    width="600" 
+    height="450" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+  <p>This map shows one of my favorite places!</p>
+</body>
+</html>
